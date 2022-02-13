@@ -21,8 +21,8 @@ class TodoWidget extends StatelessWidget {
           children: [
               TextButton.icon(onPressed: (){editTodo(context, todo);}, icon: Icon(Icons.edit,color: kFABBgColor,),
                    key: Key(todo.id.toString()), label: Text('Edit', style: TextStyle(color: kFABBgColor),)),
-              TextButton.icon(onPressed: (){deleteTodo(context, todo);}, icon: Icon(Icons.cancel, color: Colors.black54,),
-                    label: Text('Delete', style: TextStyle(color: Colors.black54),)),
+              TextButton.icon(onPressed: (){deleteTodo(context, todo);}, icon: Icon(Icons.cancel, color: Colors.white54,),
+                    label: Text('Delete', style: TextStyle(color: Colors.white54),)),
           ],
         ),
       );
