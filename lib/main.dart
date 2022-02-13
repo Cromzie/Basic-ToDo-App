@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
           title: 'ToDo List',
           theme: ThemeData(
             primaryColor: kPrimarySwatch,
-            scaffoldBackgroundColor: kScaffoldBgColor,
+            scaffoldBackgroundColor: Colors.black87,
           ),
           home: 
           HomePage(),

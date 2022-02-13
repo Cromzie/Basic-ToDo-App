@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
       ),
       bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: Theme.of(context).primaryColor,
+        backgroundColor: Colors.orangeAccent,
         unselectedItemColor: Colors.white54,
         selectedItemColor: Colors.white,
         currentIndex: selectedIndex,
@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
         ),
         backgroundColor: kFABBgColor,
         onPressed: () => showDialog(
-          barrierColor: Colors.limeAccent.shade100,
+          barrierColor: Colors.white12,
           context: context,
           builder: (context) => AddTodoDialogWidget(),
           barrierDismissible: false,
